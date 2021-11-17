@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: zipkin-demo
+  zipkin:
+    base-url: http://zipkin-cluster-ip-service:9411
+urls:
+  data-service: http://data-service-cluster-ip-service:8082
